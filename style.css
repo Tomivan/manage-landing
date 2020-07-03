@@ -34,7 +34,7 @@ li{
     font-size: 60px;
     color: #273051;
 }
-.main p{
+p{
     margin-top: 5%;
     font-size: 20px;
     color: #d5d5e0;
@@ -48,4 +48,121 @@ li{
 }
 .middle-section{
     display: flex;
+    margin-left: 8%;
+}
+.segment{
+    margin-left: 20%;
+    display: flex;
+    flex-direction: column;
+}
+.manage h2, .comments h2{
+    color: #273051;
+    font-size: 40px;
+}
+.button{
+    background: #e26148;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    width: 4vw;
+    height: 4vh;
+}
+.segment-info{
+    margin-bottom: 10%;
+}
+.info{
+    margin-left: 25%;
+    margin-top: -12%;
+    width: 100%;
+}
+.topic{
+    color: #273051;
+    font-weight: bold;
+}
+.comments h2{
+    text-align: center;
+    margin-top: 5%;
+}
+.comments-div{
+    display: flex;
+    margin-top: 5%;
+}
+.comment{
+    height: 40vh;
+    width: 32vw;
+    background: #fafafa;
+    padding: .7em;
+    margin-left: 2%;
+}
+.comment img{
+    height: 10vh;
+    margin-top: -10%;
+    margin-left: 40%;
+}
+.comment p{
+    text-align: center;
+}
+.comments button{
+    margin-top: 5%;
+    margin-left: 45%;
+}
+.simplify {
+    background-color: #e26148;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    height: 20vh;
+}
+.simplify h2{
+    font-size: 40px;
+    padding: 1em;
+}
+.get-started-1{
+    height: 5vh;
+    width: 10vw;
+    background: #ffffff;
+    border-radius: 20px;
+    border: none;
+    color: #e26148;
+    margin-top: 3%;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    background: #1e1e25;
+    height: 30vh;
+    padding: 2em;
+}
+
+.icons img{
+    margin-left: 3%;
+    margin-top: 30%;
+}
+.Home p, .careers p{
+    padding: .3em;
+}
+input{
+    height: 5vh;
+    width: 15vw;
+    border: none;
+    border-radius: 20px;
+}
+input::placeholder{
+    padding-left: 10%;
+    color: #8c8c8c;
+}
+.go{
+    background-color: #e26148;
+    color: #ffffff;
+    width: 5vw;
+    height: 5vh;
+    border: none;
+    border-radius: 20px;
+}
+.copyright p{
+    font-size: 14px;
+    color: #8c8c93;
+    margin-left: 25%;
+    margin-top: 20%;
 }
